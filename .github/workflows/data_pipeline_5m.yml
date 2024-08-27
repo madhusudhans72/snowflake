@@ -3,7 +3,7 @@ name: data-pipeline-workflow
 on:
   push: # uncomment to run on push
   schedule:
-    - cron: "* * * * *" # 
+    - cron: "5 4 * * 5" # 
 
 jobs:
   run-data-pipeline:
